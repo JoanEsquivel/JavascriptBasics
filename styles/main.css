@@ -1,0 +1,52 @@
+header {
+    background: none;
+  }
+  header h1 {
+    margin: 15px 0 0 27px;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    float: right;
+  }
+  
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background: none;
+    color: #222;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      position: absolute;
+      left: 75px;
+      top: 5px;
+      margin: 0;
+    }
+    header .brand-logo {
+      float: left;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      margin: 0;
+    }
+    header .nav a {
+      padding: 10px 10px 10px 30px;
+    }
+  }
+  .dummy-fill .container {
+    background: #cacaca;
+  }
+  
+  header .container-fluid {
+    padding-left: 0;
+  }
+  header .navbar-default {
+    background: none;
+    border: none;
+  }
+  
